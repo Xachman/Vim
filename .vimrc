@@ -42,7 +42,6 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this linei
 color mustang2
 syntax on
-execute pathogen#infect()
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
